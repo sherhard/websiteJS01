@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+	padding: 0;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_topnav{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+	background-color: #121;
+	top: 0;
+	position: relative;
+	width: 100%;
+}
+.topnav{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+
+}
+.topnav li{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.topnav li a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.topnav li a:hover{
+	background: white;
+	color: black;
+}
+.head_btn a.icon{
+	display: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.head_logo a{
+	background: green;
+	padding: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+	.topnav li{
+		float: none;
+	}
+
+.topnav{
+	padding-top: 30px;
+	display: none;
+}
+
+.head_btn a.icon{
+	display: block;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+
+
+}
+}
+
+
+section{
+	background-image: url(img/1920x1080/01.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  
+}
+.section_text{
+	position: absolute;
+	color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 40px;
+}
+
+.container_head{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+
+
+
+
+.about_h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+.container_about{
+	display: flex;
+
+}
+.container_img img{
+	width: 100%;
+}
+
+.container_btn{
+	background: grey;
+}
+.btn_btn{
+	margin-top: 100px;
+	border-radius: 32px;
+	background: white;
+	width: 100px;
+	height: 100px;
+}
+.btn_btn:hover{
+	background: #394994;
+}
+@media screen and (max-width: 800px){
+	.btn_btn{
+		margin: 0;
+		/*border-radius: ;*/
+	}
+}
+
+
+.container_person{
+	text-align: center;
+}
+.header_person{
+	text-align: center;
+}
+
+.people{
+	display: flex;
+	justify-content: space-between;
+}
+
+.person img{
+	max-width: 90%;
+}
+
+footer{
+	background: black;
+	height: 100px;
+}
